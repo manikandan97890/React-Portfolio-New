@@ -67,7 +67,7 @@ const IntroSection = () => {
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/manikandan97890"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -77,7 +77,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
+              href="https://www.facebook.com/manikandan.ronaldo.9"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -87,7 +87,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://t.me/snaichuk_v"
+              href="https://t.me/manikandan97890"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -97,7 +97,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://linkedin.com/in/chidambaram-manikandan-3677ba160"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

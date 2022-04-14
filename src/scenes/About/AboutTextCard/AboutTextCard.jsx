@@ -6,13 +6,13 @@ const AboutTextCard = () => {
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
         Hi Everyone, I am{' '}
-        <span className={s.purple}>Snaichuk Volodymyr </span>
-        from <span className={s.purple}> Ternopil, Ukraine.</span>
+        <span className={s.purple}>Manikandan Chidambaram </span>
+        from <span className={s.purple}> Chennai, India.</span>
         <br />
-        Skilled MERN Stack and React Native Developer.
+        Skilled MERN Stack Developer.
         <br /> Bachelor in Computer Science from
         <br />
-        West Ukrainian National University, Ternopil.
+        Veltech University, Chennai.
         <br />
         <br />
         Apart from coding, some other activities that I love to do!
@@ -20,10 +20,10 @@ const AboutTextCard = () => {
 
       <ul>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Playing Games
+          <ImPointRight /> Playing Cricket
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Reading
+          <ImPointRight /> Aerospace Explorations
         </li>
         <li className={s.aboutActivity}>
           <ImPointRight /> Travelling
@@ -37,7 +37,7 @@ const AboutTextCard = () => {
           marginTop: '1rem',
         }}
       >
-        "Strive to build things that make a difference!"{' '}
+        "Choose a job you love, and you will never have to work a day in your life"{' '}
       </p>
     </div>
   );

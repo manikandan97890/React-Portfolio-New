@@ -41,7 +41,7 @@ const ModalProjectCard = () => {
           </div>
         </div>
 
-        <div className={s.cardFooter}>
+        {/* <div className={s.cardFooter}>
           <Button
             style={{ width: '12rem' }}
             className="primary"
@@ -59,7 +59,7 @@ const ModalProjectCard = () => {
           >
             <BiLinkExternal /> &nbsp; Know more
           </Button>
-        </div>
+        </div> */}
       </div>
     </Modal>
   );

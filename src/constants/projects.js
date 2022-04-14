@@ -1,124 +1,69 @@
+import businessloan from '../assets/business-loan.jpg';
+import Ryzeclaims from '../assets/Ryzeclaims1.png';
+import Medallion from '../assets/medallion.jpg';
+
 export const PROJECTS = [
   {
     id: '1',
-    title: 'Apiko Marketplace',
+    title: 'Epoch Lending',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      // 'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'An mortgage lending company SPS APP made with MERN,The project was deployed on Azure Webapp service',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
-    },
+      src: businessloan,
+      placeholderSrc:require("../assets/business-loan.jpg")
+        
+    },   
     technologies: [
       '#react',
-      '#redux',
-      '#socket.io',
+      '#redux',     
       '#scss',
-      '#formik',
-      '#react-window',
+      '#formik',      
       '#restapi',
+      '#node',
+      '#express',
+      '#mongodb',
+      '#mongoose'
     ],
   },
   {
     id: '2',
-    title: 'Places App',
+    title: 'Ryzeclaim Solutions',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'A Claims services company with a national footprint providing outsourcing solutions to those who insure and self-insure the risks of enterprises and the public. It is made with react,node with postgresql and was deployed on Azure ',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: Ryzeclaims,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
     },
     technologies: [
       '#react',
       '#nodejs',
       '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
+      '#postgresql',      
       '#mongoose',
       '#jwt',
-      '#aws',
+      '#azure',
     ],
   },
   {
     id: '3',
-    title: 'eCommerce Mobile App',
+    title: 'Medallion Enterprises',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'It is a Shipping Based Company who controlling the fulfillment and logistics. It is made with React,Node and PostgreSql',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: Medallion,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
-    },
+    },   
     technologies: [
-      '#react-native',
-      'expo',
+      '#react',      
       '#redux',
       '#redux-toolkit',
       '#react-navigation',
       '#nodejs',
       '#express',
-      '#mongodb',
+      '#postgresql'
     ],
-  },
-  {
-    id: '4',
-    title: 'Places Mobile App',
-    description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
-    image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
-    },
-    technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
-    ],
-  },
-  {
-    id: '5',
-    title: 'Shopping Cart',
-    description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
-    image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
-    },
-    technologies: [
-      '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
-    ],
-  },
+  }  
 ];

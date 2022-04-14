@@ -14,11 +14,11 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h3>Designed and Developed by Snaichuk Volodymyr</h3>
+          <h3>Designed and Developed by Manikandan C</h3>
         </div>
 
         <div className={s.copyright}>
-          <h3>Copyright © {year} SV.dev</h3>
+          <h3>Copyright © {year} M.C</h3>
         </div>
 
         <div className={s.body}>
