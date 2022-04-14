@@ -8,8 +8,7 @@ import {
   DiSass,
   DiPostgresql
 } from 'react-icons/di';
-import {
-  SiTypescript,
+import {  
   SiRedux,
   SiSocketDotIo, 
   SiAzuredevops
