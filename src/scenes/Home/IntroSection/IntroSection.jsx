@@ -45,7 +45,7 @@ const IntroSection = () => {
               <br />
               <i>
                 <b className={s.purple}>
-                  JavaScript, Reactjs, Nodejs, React Native
+                  JavaScript, Reactjs, Nodejs, React Native, Python, Azure , AWS
                 </b>
               </i>{' '}
               and some other cool libraries
@@ -97,7 +97,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://linkedin.com/in/chidambaram-manikandan-3677ba160"
+              href="https://www.linkedin.com/in/manikandan-chidambaram/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

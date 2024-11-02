@@ -25,7 +25,7 @@ const Footer = () => {
           <ul className={s.socialIcons}>
             <li>
               <a
-                href="https://github.com/vsnaichuk"
+                href="https://github.com/manikandan97890"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.facebook.com/Snaychuk"
+                href="https://www.facebook.com/manikandan.ronaldo.9"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -43,7 +43,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://t.me/snaichuk_v"
+                href="https://t.me/manikandan97890"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -52,7 +52,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+                href="https://www.linkedin.com/in/manikandan-chidambaram/"
                 target="_blank"
                 rel="noreferrer"
               >
