@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
 import SDH from '../../assets/sdh.svg';
 import AboutTextCard from './AboutTextCard/AboutTextCard';
 import TechSkills from './TechSkills/TechSkills';
-import GithubActivity from './GithubActivity/GithubActivity';
+// import GithubActivity from './GithubActivity/GithubActivity';
 
 const About = () => {
   return (

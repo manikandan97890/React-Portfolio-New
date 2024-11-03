@@ -4,7 +4,6 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGit,
   DiSass,
   DiPostgresql,
   DiAws,

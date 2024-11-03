@@ -4,7 +4,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
-// import { CgFileDocument } from 'react-icons/cg';
+import { CgFileDocument } from 'react-icons/cg';
 import { routes } from '../../../routes/BaseRoutes';
 import { NavLink } from 'react-router-dom';
 
@@ -32,12 +32,12 @@ const NavLinks = () => {
         </NavLink>
       </li>
 
-      {/* <li>
+      <li>
         <NavLink to={routes.RESUME} activeClassName={s.active}>
           <CgFileDocument />
           Resume
         </NavLink>
-      </li> */}
+      </li>
     </ul>
   );
 };

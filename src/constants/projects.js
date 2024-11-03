@@ -8,7 +8,7 @@ export const PROJECTS = [
     title: '',
     description:
       // 'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
-      'An mortgage lending company SPS APP made with MERN,The project was deployed on Azure Webapp service',
+      'This mortgage lending platform was built for SPS, leveraging the MERN stack to deliver a fast, secure, and scalable application. Deployed on Azure Web App Service, it streamlines mortgage processing, enabling real-time loan tracking and personalized client offers. Key features include JWT-based secure authentication, role-based dashboards, and a responsive UI crafted with React and Tailwind CSS. Continuous integration and deployment are managed through Azure DevOps, with Docker ensuring environment consistency.',
     image: {
       src: businessloan,
       placeholderSrc:require("../assets/business-loan.jpg")
@@ -30,7 +30,7 @@ export const PROJECTS = [
     id: '2',
     title: '',
     description:
-      'A Claims services company with a national footprint providing outsourcing solutions to those who insure and self-insure the risks of enterprises and the public. It is made with react,node with postgresql and was deployed on Azure ',
+      'Developed for a nationwide claims services company, this platform provides comprehensive outsourcing solutions for enterprises and public entities that insure or self-insure. Built with React and Node.js and backed by PostgreSQL for reliable data handling, the application streamlines claims management processes with high availability and security. Deployed on Azure Web App Service, it offers a scalable and secure environment, allowing the company to efficiently support a wide network of clients and claims professionals.',
     image: {
       src: Ryzeclaims,
       placeholderSrc:
@@ -50,7 +50,7 @@ export const PROJECTS = [
     id: '3',
     title: '',
     description:
-      'It is a Shipping Based Company who controlling the fulfillment and logistics. It is made with React,Node and PostgreSql',
+      'Built for a shipping company specializing in logistics and fulfillment, this platform streamlines inventory management, shipment tracking, and order fulfillment. Developed with React and Node.js and supported by a PostgreSQL database, the application ensures efficient data handling and real-time updates, allowing for smooth and reliable logistics operations. This solution enhances visibility and control over the entire shipping process, optimizing workflows and improving service delivery.',
     image: {
       src: Medallion,
       placeholderSrc:
